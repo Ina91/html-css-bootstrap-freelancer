@@ -1,0 +1,72 @@
+.container{
+    color:white;
+    font-weight: 700;
+    text-align: center;
+}
+
+nav, footer {
+    background-color: #2c3e50;
+}
+
+nav{
+    height:100px;
+}
+nav li {
+    list-style-type: none;
+    text-transform: uppercase;
+    float: left;
+    padding-right: 20px;
+    line-height: 100px;
+    font-size: 16px;
+}
+
+nav a {
+    color:white;
+}
+
+a:hover {
+    color:#1abc9c;
+    text-decoration: none;
+}
+
+#logo-azienda {
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+#logo-azienda:hover {
+    color:white;
+}
+
+/* END NAV STYLE */
+
+/* START HEADER */
+header{
+    background-color: #1abc9c;
+    padding-top :200px;
+}
+
+header img{
+    height: 250px;
+    padding-bottom: 30px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+
+header p {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* END HEADER */
+
+
+/* START PORTFOLIO SECTION */
