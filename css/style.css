@@ -168,25 +168,61 @@ header {
 }
 
 /* end portfolio */
+
 /* START ABOUT */
  p{
     font-weight: 300;
     font-size: 20px;
     padding: 15px;
+}
+
+ #btp_about-button{
+    background-color: #1abc9c;
+    border-color: white;
+    padding:20px 25px;
 
 }
 
+#btp_about-button a{
+    height: 100%;
+    text-decoration: none;
+    color: white;
+}
+#btp_about-button a:hover,
+#btp_about-button:hover{
+    color: black;
+    background-color: white;
+}
 
 /* contact */
 .btp_form {
 padding-top:50px;
 padding:bottom:50px;
+width: 75%;
+margin:0 auto;
 }
 
-.btp_form input {
+.btp_form input,
+.btp_form textarea{
+    margin-bottom: 15px;
     border-top: none;
     border-left:none;
     border-right:none;
+    box-shadow: none;
+    border-radius: 0px;
+
+}
+
+.form-group-lg button{
+    background-color: #1abc9c;
+    color: white;
+    padding:20px 30px;
+    border: 0px;
+    border-radius: 10px;
+}
+.form-group-lg button:hover{
+    background-color: #117964;
+    color: white;
 }
 
 /* footer */
@@ -206,21 +242,30 @@ padding-bottom: 50px;
     display: inline-block;
     border: 1px solid white;
     border-radius: 50%;
-    padding-left: 10px;
+    margin-left: 10px;
     position: relative;
 
 }
 
+.btp_footer-col li:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
 .btp_footer-col li a{
+    width: 100%;
     color: white;
     font-size: 25px;
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50% , -50%);
+    border-radius: 50%;
 
 }
 
+.btp_footer-col li a:hover{
+    color: black;
+    /* background-color: rgba(255, 255, 255, 1); */
+}
 .btp_footer-col ul{
 padding-left:0;
 }
