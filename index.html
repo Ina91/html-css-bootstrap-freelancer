@@ -10,135 +10,189 @@
         <title>html-css-bootstrap-freelancer</title>
     </head>
     <body>
-        <!-- Start navbar fixed -->
-        <nav class=" navbar-fixed-top">
-            <div class="container">
-                <div class="row">
-                    <a href="#" class="col-lg-4" id="logo-azienda">start bootstrap</a>
-                    <ul class="col-lg-4 col-lg-offset-4">
-                        <li> <a href="#">portfolio</a> </li>
-                        <li> <a href="#">about</a> </li>
-                        <li> <a href="#">contact</a> </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- end navbar -->
         <!-- start header -->
         <header>
+            <nav class="btp_navbar navbar navbar-default navbar-fixed-top text-uppercase ">
+                <div class="container">
+                    <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="background-color: #1abc9c; color:white;">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span>MENU</span>
+                            <div class="menu-icon">
+                                <span class="icon-bar" style="background-color: white;"></span>
+                                <span class="icon-bar" style="background-color: white;"></span>
+                                <span class="icon-bar" style="background-color: white;"></span>
+                            </div>
+                          </button>
+                          <a class="navbar-brand " href="#">start bootstrap</a>
+                    </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">contact</a></li>
+                          </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+        <section id="banner" class="btp_bg-green">
             <div class="container">
                 <div class="row">
-                    <img class=" col-lg-4 col-lg-offset-4" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="avatar">
-                    <h1 Class="col-lg-offset-2 col-lg-8">Start Bootstrap</h1>
-                    <div class="icone col-lg-6 col-lg-offset-3">
-                        <div class="riga col-lg-5 ">
-                            <hr>
-                        </div>
-                        <div class="stella col-lg-2">
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="riga col-lg-5">
-                            <hr>
-                        </div>
-
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <img class="btp_banner-img" src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="avatar">
+                        <h1 class="text-uppercase"> start bootstrap</h1>
                     </div>
-                    <p class="col-lg-offset-3 col-lg-6">Graphic Artist - Web Designer - Illustrator</p>
+                        <!--Line divisor  -->
+                    <div class="btp_star col-xs-12 colmd-12 col-lg-12">
+                        <i id="star"class="fas fa-star"></i>
+                    </div>
+                    <h3 class="text-capitalize">graphic Artist - web designer - Illustrator</h3>
                 </div>
+
             </div>
-        </header>
+        </section>
         <!-- End Header -->
         <main>
-            <!-- Start Portfolio section -->
-            <section class="portfolio container">
-                <div class="row">
-                    <h2>portfolio</h2>
-                    <div class="icone col-lg-6 col-lg-offset-3">
-                        <div class="riga col-lg-5 ">
-                            <hr>
+            <!-- Portfolio section -->
+            <section class=" btp_bg-white btp_portfolio">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-xs-12 col-md-12 col-lg-12">
+                            <h2 class="text-uppercase"> portfolio</2h>
                         </div>
-                        <div class="stella col-lg-2">
-                            <span class="glyphicon glyphicon-star " aria-hidden="true"></span>
+                        <div class="btp_star col-xs-12 colmd-12 col-lg-12">
+                            <i id="star"class="fas fa-star"></i>
                         </div>
-                        <div class="riga col-lg-5">
-                            <hr>
+                    </div>
+                    <div class="row">
+                        <div class="btp_card col-sm-12 col-md-6 col-lg-4">
+                            <div class="btp_portfolio-img">
+                                <div class="btp_portfolio-overlay">
+                                    <i id="plus"class="fas fa-plus"></i>
+                                </div>
+                                <img class="img-responsive img-rounded " src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="cabin">
+                            </div>
                         </div>
-
+                        <div class="btp_card col-sm-12 col-md-6 col-lg-4">
+                            <div class="btp_portfolio-img">
+                                <div class="btp_portfolio-overlay">
+                                    <i id="plus"class="fas fa-plus"></i>
+                                </div>
+                                <img class="img-responsive img-rounded " src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="cake">
+                            </div>
+                        </div>
+                        <div class="btp_card col-sm-12 col-md-6 col-lg-4">
+                            <div class="btp_portfolio-img">
+                                <div class="btp_portfolio-overlay">
+                                    <i id="plus"class="fas fa-plus"></i>
+                                </div>
+                                <img class="img-responsive img-rounded " src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="circus">
+                            </div>
+                        </div>
+                        <div class="btp_card col-sm-12 col-md-6 col-lg-4">
+                            <div class="btp_portfolio-img">
+                                <div class="btp_portfolio-overlay">
+                                    <i id="plus"class="fas fa-plus"></i>
+                                </div>
+                                <img class="img-responsive img-rounded " src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="game">
+                            </div>
+                        </div>
+                        <div class="btp_card col-sm-12 col-md-6 col-lg-4">
+                            <div class="btp_portfolio-img">
+                                <div class="btp_portfolio-overlay">
+                                    <i id="plus"class="fas fa-plus"></i>
+                                </div>
+                                <img class="img-responsive img-rounded " src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="safe">
+                            </div>
+                        </div>
+                        <div class="btp_card col-sm-12 col-md-6 col-lg-4">
+                            <div class="btp_portfolio-img">
+                                <div class="btp_portfolio-overlay">
+                                    <i id="plus"class="fas fa-plus"></i>
+                                </div>
+                                <img class="img-responsive img-rounded " src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="submarine">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="card">
-                        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="cabin">
-                    </div>
-                    <div class="card">
-                        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="cake">
-                    </div>
-                    <div class="card">
-                        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="circus">
-                    </div>
-                    <div class="card">
-                        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="game">
-                    </div>
-                    <div class="card">
-                        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="safe">
-                    </div>
-                    <div class="card">
-                        <img src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="submarine">
-                    </div>
-                </div>
-
             </section>
-            <!-- End Portfolio -->
-            <!-- start about section -->
-            <section class="about container">
-                <div class="row">
-                    <h2>about</h2>
-                    <div class="icone col-lg-6 col-lg-offset-3">
-                        <div class="riga col-lg-5 ">
-                            <hr>
+            <!-- about section -->
+            <section class="btp_bg-green btp_about">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-xs-12 col-md-12 col-lg-12">
+                            <h2 class="text-uppercase"> about</2h>
                         </div>
-                        <div class="stella col-lg-2">
-                            <span class="glyphicon glyphicon-star " aria-hidden="true"></span>
+                        <div class="btp_star col-xs-12 colmd-12 col-lg-12">
+                            <i id="star"class="fas fa-star"></i>
                         </div>
-                        <div class="riga col-lg-5">
-                            <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-4 col-lg-offset-2  text-left">
+                            <p >Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
                         </div>
-
+                        <div class="col-sm-12 col-md-12 col-lg-4 text-left">
+                            <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                        </div>
+                        <div class="btn-group col-lg-offset-4 col-lg-4 ">
+                            <button type="button" class="btn btn-default btn-lg" name="button">
+                                <a href="#">
+                                    <i class="fas fa-download"></i>
+                                    <span>Free download!</span>
+                                </a>
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div class="row"></div>
-
             </section>
-            <!-- Start Contact section -->
-            <section class="contact container">
-                <div class="row">
-                    <h2>contact me</h2>
-                    <div class="icone col-lg-4 col-lg-offset-4">
-                        <div class="riga  col-lg-5">
-                            <hr>
+            <!--contact section -->
+            <section class="btp_bg-white btp_contact">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-xs-12 col-md-12 col-lg-12">
+                            <h2 class="text-uppercase"> Contact me</2h>
                         </div>
-                        <div class="stella col-lg-2">
-                            <span class="glyphicon glyphicon-star " aria-hidden="true"></span>
+                        <div class="btp_star col-xs-12 colmd-12 col-lg-12">
+                            <i id="star"class="fas fa-star"></i>
                         </div>
-                        <div class="riga  col-lg-5">
-                            <hr>
-                        </div>
-
+                    </div>
+                    <!-- form -->
+                    <div class="row">
+                        <form class="btp_form">
+                            <div class=" form-group-lg ">
+                                <label for="InputName"></label>
+                                <input  type="text" class="form-control" id="InputName" placeholder="Name">
+                            </div>
+                            <div class="form-group-lg">
+                                <label for="InputEmail"></label>
+                                <input  type="email" class="form-control" id="InputEmail" placeholder="Email address">
+                            </div>
+                            <div class="form-group-lg">
+                                <label for="InputTel"></label>
+                                <input  type="tel" class="form-control" id="InputTel" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group-lg">
+                                <label for="InputMessage"></label>
+                                <textarea class="form-control" rows="5" id="InputMessage" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default btn-lg pull-left">Send</button>
+                        </form>
                     </div>
                 </div>
-                <div class="row"></div>
             </section>
-            <!-- End contact -->
-
         </main>
+
         <!-- Start footer -->
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="btp_footer-col col-sm-12 col-md-12 col-lg-4">
                         <h4>location</h4>
                         <p>2215 John Daniel Drive Clark, MO 65243</p>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="btp_footer-col col-sm-12 col-md-12 col-lg-4">
                         <h4>around the web</h4>
                         <ul>
                             <li> <a href="#"><i class="fab fa-facebook-f"></i></a> </li>
@@ -147,7 +201,7 @@
                             <li> <a href="#"><i class="fas fa-basketball-ball"></i></a> </li>
                         </ul>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="btp_footer-col col-sm-12 col-md-12 col-lg-4">
                         <h4>about freelancer</h4>
                         <p>
                             <span>Freelance is a free to use, MIT licensed Bootstrap theme created by</span>
@@ -163,6 +217,7 @@
                 </div>
             </div>
         </footer>
+
 
     </body>
 </html>
